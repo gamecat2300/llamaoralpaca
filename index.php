@@ -83,6 +83,7 @@ The Unbelievably Sweet Alpacas
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 </body>
+<?php include "analyticstracking.php";?>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
