@@ -2610,7 +2610,7 @@ CSS_SELECTOR_METHOD:"Check your method name.",CSS_SELECTOR_STRING:"Check your cs
     // plugin definition
     //
     $.fn.soundPlay = function(options) {
-
+        
         // build main options before element iteration
         var opts = $.extend({}, $.fn.soundPlay.defaults, options);
         // iterate and reformat each matched element
@@ -2619,7 +2619,7 @@ CSS_SELECTOR_METHOD:"Check your method name.",CSS_SELECTOR_STRING:"Check your cs
         } else if(opts.command == "stop") {
             $.fn.soundPlay.stop(opts);
         } else {
-
+            
         }
     };
 
@@ -2655,11 +2655,11 @@ CSS_SELECTOR_METHOD:"Check your method name.",CSS_SELECTOR_STRING:"Check your cs
 	This plugin available for use in all personal or commercial projects under both MIT and GPL licenses.
 */
 
-(function($){
-$.fn.twitterbutton = function(options) {
-
-  //Set the default values, use comma to separate the settings
-  var defaults = {
+(function($){  
+$.fn.twitterbutton = function(options) {  
+	
+  //Set the default values, use comma to separate the settings 
+  var defaults = {  
 		user: false,
 		user_description: false,
 		url: false,
@@ -2675,25 +2675,25 @@ $.fn.twitterbutton = function(options) {
 		ontweet: function(){return true;},
 		onretweet: function(){return true;},
 		onfollow: function(){return true;}
-	}
+	}  
 
-	var options =  $.extend(defaults, options);
+	var options =  $.extend(defaults, options);  
 	var script_loaded = false;
   return this.each(function() {
-  var o = options;
+  var o = options;  
   var obj = $(this);
   if(!o.url) var dynUrl = document.location;
   else var dynUrl = o.url;
   if(!o.title)var dynTitle = document.title;
   else var dynTitle = o.title;
-
+	
 	if(!o.count_url)o.count_url=dynUrl;
-
+	
 	if(!script_loaded){
-		var e = document.createElement('script'); e.type="text/javascript"; e.async = true;
+		var e = document.createElement('script'); e.type="text/javascript"; e.async = true; 
 		e.src = 'http://platform.twitter.com/widgets.js';
 		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(e);
-
+		
 		$(e).load(function() {
 			function clickEvent(intent_event) {
 			  if (intent_event) {
@@ -2705,8 +2705,8 @@ $.fn.twitterbutton = function(options) {
 							pageTracker._trackEvent('twitter_web_intents', intent_event.type, label);
 						}
 					}
-			  };
-			}
+			  };      
+			}       
 			function tweetIntent(intent_event) {
 			  if (intent_event) {
 					var label = intent_event.data.tweet_id;
@@ -2719,11 +2719,11 @@ $.fn.twitterbutton = function(options) {
 					}
 			 		o.ontweet.call(intent_event);
 			  	if(o.hideafterlike)$(obj).hide();
-			  };
-			}
+			  };      
+			}       
 			function favIntent(intent_event) {
 				tweetIntent(intent_event);
-			}
+			}       
 			function retweetIntent(intent_event) {
 			  if (intent_event) {
 					var label = intent_event.data.source_tweet_id;
@@ -2736,8 +2736,8 @@ $.fn.twitterbutton = function(options) {
 					}
 			 		o.onretweet.call(intent_event);
 			  	if(o.hideafterlike)$(obj).hide();
-			  };
-			}
+			  };      
+			}       
 			function followIntent(intent_event) {
 			  if (intent_event) {
 					var label = intent_event.data.user_id + " (" + intent_event.data.screen_name + ")";
@@ -2750,8 +2750,8 @@ $.fn.twitterbutton = function(options) {
 					}
 			 		o.onfollow.call(intent_event);
 			  	if(o.hideafterlike)$(obj).hide();
-			  };
-			}
+			  };      
+			}       
 			twttr.events.bind('click',    clickEvent);
 			twttr.events.bind('tweet',    tweetIntent);
 			twttr.events.bind('retweet',  retweetIntent);
@@ -2761,7 +2761,7 @@ $.fn.twitterbutton = function(options) {
 		});
 	}
 
-
+	
 	  if(o.action=='tweet'){
 	  	var via = '';
 	  	var related = '';
@@ -2780,8 +2780,8 @@ $.fn.twitterbutton = function(options) {
 	  if(o.mode=='append')$(obj).append(thtml);
 	  else $(obj).html(thtml);
 
-  });
-}
+  });  
+}  
 })(jQuery);
 
 

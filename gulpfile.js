@@ -29,9 +29,9 @@ gulp.task('scripts', function() {
     return gulp.src('js/*.js')
         .pipe(concat('script.js'))
         .pipe(gulp.dest('js-min'))
-        .pipe(rename('scripts.min.js'))
+        .pipe(rename('script.min.js'))
         .pipe(uglify())
-        .pipe(gulp.dest('js-min/js'));
+        .pipe(gulp.dest('js-min'));
 });
 
 
