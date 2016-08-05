@@ -96,5 +96,5 @@ The Unbelievably Sweet Alpacas
 <link href="css/jquery-letterfx.css" rel="stylesheet" type="text/css" />
 <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="js-min/script.js"></script>
+<script src="js-min/scripts.min.js"></script>
 </html>
