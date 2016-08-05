@@ -4238,20 +4238,19 @@ $(document).ready(function(){
 
 	$( "#quizArea" ).delegate( ".q-next-btn", "click", function(e){
 		$(".q-next-btn").hide();
+			ga('send', 'event', 'game', 'click', 'next', 1);
 	});
 
 	$( "#quizArea" ).delegate( ".helpButton", "click", function(e){
 		$( ".help" ).fadeIn( "fast" );
-		ga('send', 'event', 'game', 'got_help', 'got_help', 1);
+			ga('send', 'event', 'game', 'click', 'got_help', 1);
+			$( "#help_button" ).click();
 	});
 
 	$(".close").click(function(){
 		$( ".help" ).fadeOut( "fast" );
 	});
 
-	$( "#quizArea" ).delegate( ".helpButton", "click", function(e){
-		$( "#help_button" ).click();
-	});
 
 	$(".close").click(function(){
 		$( ".help" ).fadeOut( "fast" );
