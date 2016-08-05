@@ -1,0 +1,27 @@
+{
+  "name": "llamaoralpaca",
+  "version": "1.0.0",
+  "description": "llamaoralpaca =============",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamecat2300/llamaoralpaca.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gamecat2300/llamaoralpaca/issues"
+  },
+  "homepage": "https://github.com/gamecat2300/llamaoralpaca#readme",
+  "devDependencies": {
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "jshint": "^2.9.2"
+  }
+}
