@@ -32,17 +32,8 @@ window._fbq.push(['track', '6022104644355', {'value':'0.00','currency':'USD'}]);
 <body>
 
 <div style="height:1px" class="seoText">
-<h1>Llama</h1>
-<h1>Alpaca</h1>
 <h1>Llama or Alpaca</h1>
-<h1>Llama Or Alpaca Quiz</h1>
-<h1>Llama versus Alpaca</h1>
-<h1>Differences between alpacas and llamas</h1>
-<h1>Difference between alpacas and llamas</h1>
-<h1>fun facts about alpacas</h1>
-<h1>llama vs alpaca pictures</h1>
-<h1>fun facts about alpacas</h1>
-<h2>The Difference Between A Llama And An Alpaca</h2>
+<p>Llama Or Alpaca Quiz Llama versus Alpaca, The Difference between alpacas and llamas,fun facts about alpacas, llama vs alpaca pictures,fun facts about llamas, a childrens learning game, The Difference Between A Llama And An Alpaca</p>
 <p>
 The Unbelievably Sweet Alpacas
 </p>
@@ -106,14 +97,4 @@ The Unbelievably Sweet Alpacas
 <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="js-min/script.js"></script>
-<!--script type="text/javascript" src="js/jquery.fancybox-min.js?v=2.1.5"></script>
-<script src="js/jquery.jplayer.min.js"></script>
-<script src="js/jquery.twitterbutton.1.1.js"></script>
-<script src="js/quizScript-min.js"></script>
-<script src="js/utilities.js"></script>
-<script src="js/halloween-bats.js"></script>
-<script src="js/tuxsudo.min.js"></script>
-<script src="js/jquery-letterfx.js"></script>
-<script type="text/javascript" src="js/questions.js"></script -->
-
 </html>
