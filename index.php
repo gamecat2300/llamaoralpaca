@@ -68,7 +68,6 @@ The Unbelievably Sweet Alpacas
 <div class="bottomLinks">
 
 		<a class="pp fancybox fancybox.iframe" itemprop="url" onClick="_gaq.push(['_trackEvent', 'game', 'visit_shop', 'visit_shop']);" href="http://nationalflashback.spreadshirt.com/customize/noCache/1">SHOP</a> |
-		<a class="pp" itemprop="url" target="_blank" href="/blog/index.php">blog</a> |
 		<a class="pp fancybox fancybox.iframe" itemprop="url" href="privacypolicy.php">privacy policy</a> |
 		<a class="pp fancybox fancybox.iframe" target="_blank"  itemprop="url" href="termsandconditions.php">terms and conditions</a> |
 		<a class="pp fancybox fancybox.iframe" target="_blank"  itemprop="url" href="support.php">support</a>
@@ -106,14 +105,15 @@ The Unbelievably Sweet Alpacas
 <link href="css/jquery-letterfx.css" rel="stylesheet" type="text/css" />
 <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.fancybox-min.js?v=2.1.5"></script>
+<script src="js-min/script.js"></script>
+<!--script type="text/javascript" src="js/jquery.fancybox-min.js?v=2.1.5"></script>
 <script src="js/jquery.jplayer.min.js"></script>
 <script src="js/jquery.twitterbutton.1.1.js"></script>
 <script src="js/quizScript-min.js"></script>
 <script src="js/utilities.js"></script>
-<!-- script src="js/halloween-bats.js"></script -->
+<script src="js/halloween-bats.js"></script>
 <script src="js/tuxsudo.min.js"></script>
 <script src="js/jquery-letterfx.js"></script>
-<script type="text/javascript" src="js/questions.js"></script>
+<script type="text/javascript" src="js/questions.js"></script -->
 
 </html>

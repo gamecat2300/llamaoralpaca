@@ -7,8 +7,8 @@ $(document).ready(function(){
 		$checkBtn.click();
 		var rightimages = ['1.jpg', '2.jpg', '3.jpg','4.jpg','5.jpg','6.jpg'];
 		var wrongimages = ['1.jpg', '2.jpg', '3.jpg','4.jpg','5.jpg'];
-		$('.q-probArea #right').css({'background-image': 'url(../img/right/' + rightimages[Math.floor(Math.random() * rightimages.length)] + ')'});
-		$('.q-probArea #wrong').css({'background-image': 'url(../img/wrong/' + wrongimages[Math.floor(Math.random() * wrongimages.length)] + ')'});
+		$('.q-probArea #right').css({'background-image': 'url(img/right/' + rightimages[Math.floor(Math.random() * rightimages.length)] + ')'});
+		$('.q-probArea #wrong').css({'background-image': 'url(img/wrong/' + wrongimages[Math.floor(Math.random() * wrongimages.length)] + ')'});
 	});
 
 	$( "#quizArea" ).delegate( ".q-next-btn", "click", function(e){
