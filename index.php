@@ -35,7 +35,7 @@ window._fbq.push(['track', '6022104644355', {'value':'0.00','currency':'USD'}]);
 <h1>Llama or Alpaca</h1>
 <p>Llama Or Alpaca Quiz Llama versus Alpaca, The Difference between alpacas and llamas,fun facts about alpacas, llama vs alpaca pictures,fun facts about llamas, a childrens learning game, The Difference Between A Llama And An Alpaca</p>
 <p>
-The Unbelievably Sweet Alpacas
+The Unbelievably Sweet Alpacas and Lllamas
 </p>
 </div>
 <div id ="frameOne" class="quiz-el">
@@ -97,5 +97,5 @@ The Unbelievably Sweet Alpacas
 <link href="css/jquery-letterfx.css" rel="stylesheet" type="text/css" />
 <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="js-min/script.min.js"></script>
+<script src="js-min/script.js"></script>
 </html>
