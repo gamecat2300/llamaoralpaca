@@ -10,12 +10,12 @@
 * @project page <http://code.google.com/p/jquizme/>
 */
 function goodMove() {
-  $("#game_sounds").jPlayer("setMedia",{m4a: "sounds/advance_or_proceed.m4a",oga: "sounds/advance_or_proceed.ogg"}).jPlayer("play");
+  $("#game_sounds").jPlayer("setMedia",{m4a: "sounds/advance_or_proceed.m4a",oga: "sounds/advance_or_proceed.ogg",aac: "sounds/advance_or_proceed.aac"}).jPlayer("play");
   return false;
 };
 
 function badMove() {
-  $("#game_sounds").jPlayer("setMedia",{m4a: "sounds/badMove.m4a",oga: "sounds/badMove.ogg"}).jPlayer("play");
+  $("#game_sounds").jPlayer("setMedia",{m4a: "sounds/badMove.m4a",oga: "sounds/badMove.ogg",aac: "sounds/badMove.aac"}).jPlayer("play");
   return false;
 };
 
